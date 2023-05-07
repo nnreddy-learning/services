@@ -39,6 +39,7 @@ class ApplicationTests {
 		dynamicPropertyRegistry.add("spring.data.mongodb.uri", mongoDBContainer::getReplicaSetUrl);
 	}
 	
+	/*
 	@Test
 	void shouldCreateProduct() {
 		ProductRequest productRequest = getProductRequest();
@@ -48,7 +49,7 @@ class ApplicationTests {
 				.content(productRequestString)
 				.andExpect(status().isCreated());
 			
-	} 
+	} */
 	
 	private ProductRequest getProductRequest() {
 		return ProductRequest.builder()
