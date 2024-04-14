@@ -15,6 +15,8 @@ import com.programmingtechie.inventoryservice.service.InventoryService;
 
 import lombok.RequiredArgsConstructor;
 
+
+
 @RestController
 @RequestMapping("/api/inventory")
 @RequiredArgsConstructor
